@@ -1,0 +1,95 @@
+/*
+ Theme Name:   Hemingway Child Theme
+ Theme URI:    https://wordpress.org/themes/hemingway
+ Description:  LBH child theme
+ Author:       L Hurson
+ Author URI:   
+ Template:     hemingway
+ Version:      1.0.0
+*/
+ 
+@import url("../hemingway/style.css");
+
+body {
+margin: 0;
+padding: 0;
+border: none;
+background: #DDD;
+color: #000;
+font-family: 'Tahoma', trebuchet ms;
+font-size: 14px;
+}
+
+.content { width: 80%; }
+	
+
+ul.blog-menu {
+	text-align: center;
+}
+
+.blog-menu > li {
+	float: none;
+	display: inline-block;
+}
+
+/* adding header css below--------------------------------------------------------------*/
+
+.header-cover { overflow-y: hidden; }
+
+.header {
+	padding: 90px 0;
+	background: no-repeat center;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.header-inner { position: relative; z-index: 2; text-align: center; }
+
+.blog-logo { display: inline-block; }
+
+.blog-logo a,
+.blog-logo img { display: block; }
+
+.blog-logo img {
+	max-height: 250px;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.blog-info {
+	display: inline-block;
+	padding: 20px;
+	background: #1d1d1d;
+}
+
+.blog-title { 
+	width: 100%; 
+	text-align: center; 
+	font-family: 'Tahoma', sans-serif;
+}
+
+.blog-title a {
+	color: #2390B0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 500;
+	font-size: 1.75em;
+}
+
+.blog-description:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: rgba(255,255,255,0.1);
+	margin: 20px auto;
+}
+
+.blog-description {
+	font-family: 'Tahoma', sans-serif;
+	text-align: center;
+	color: rgba(255,255,255,0.4);
+	font-weight: 500;
+}
